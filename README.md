@@ -54,6 +54,14 @@ Handling of
 ## The Stack
 I use a number of open-sourced packages that I've found work well together, and appeal to my style of coding. 
 
+### Built-in
+Some things I've provided as more a boilerplate for typical tasks that Flutter doesn't necessarily provide an opinionated way of doing, such as:
+- Themeing system
+- Color scheme system
+- Font themeing
+- In-app messaging with snack messages and persistent top message bars
+- Routes for displaying modal bottom sheets and general pop-up modals
+
 ### Flutter
 If you're here, you probably want to build apps using it. 
 
@@ -84,5 +92,20 @@ Firebase makes life VERY easy for us to set up, for FREE I might add:
 - Crash analysis and statistics (Crashlytics)
 
 ### Flutter Secure Storage
+Allows storage to secure device storage channels for more sensitive information such as access tokens. Where that is exactly depends on the target system. 
 
-### 
+### Flutter Launcher Icons
+Make generating all those crazy icon files much easier, from just one reference. 
+
+### Flutter native splash
+Make generating that opening screen much easier. 
+
+### Riverpod
+State management solution. Provides the communication layer between presentation and core layers. Used in the presentation layer to provide the global scaffold messaging access, current theme, user preferences etc. 
+
+### Auto Route
+The application router. 
+#### Why this one? 
+
+#### Alternatives
+Go Router
